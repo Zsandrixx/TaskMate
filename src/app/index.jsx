@@ -69,10 +69,12 @@ export default function HomeScreen() {
       completed: false,
     };
 
-    setTasks((currentTasks) => [newTask, ...currentTasks]);
+    setTasks((currentTasks) => [...currentTasks, newTask]);setTasks((currentTasks) => [newTask, ...currentTasks]);
     setTaskTitle('');
     setDueDate('');
     Keyboard.dismiss();
+
+    Alert.alert('Task added', 'Your task has been added successfully.');
   };
 
 
