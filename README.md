@@ -10,12 +10,13 @@ TaskMate is a simple "To Do List" app made using React Native and Expo. It helps
 ## Features
 
 - Add a task and its due date.
-- See all tasks in one list.
 - Check the status of tasks.
 - Keep daily tasks organized.
 - Delete task once done
 - Alerts when a task name already exists.
 - Alert message when task has been     successfully added.
+- See reminders for overdue tasks and upcoming due dates.
+- View the total number of tasks, active tasks, and completed tasks.
 
 ## Technologies Used
 
