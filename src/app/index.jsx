@@ -29,6 +29,15 @@ export default function HomeScreen() {
       return;
     }
 
+    const duplicateTask = tasks.some(
+      (task) => task.title.toLowerCase() === title.toLowerCase()
+    );
+
+    if (duplicateTask) {
+      Alert.alert('Duplicate task', 'This task already exists.');
+      return;
+    }
+
     if (date) {
       const datePattern = /^\d{4}-\d{2}-\d{2}$/;
 
