@@ -13,6 +13,8 @@ TaskMate is a simple app made using React Native and Expo. It helps users manage
 - See all tasks in one list.
 - Check the status of tasks.
 - Keep daily tasks organized.
+- Alerts when a task name already exists.
+- Alert message when task has been successfully added.
 
 ## Technologies Used
 
